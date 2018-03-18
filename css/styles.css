@@ -62,3 +62,80 @@ header{
     width:40%;
     padding-left: 10%;
 }
+
+.section_about--header{
+  font-size: 45px;
+  font-family: "Georgia";
+  color: rgb(84, 84, 84);
+  line-height: 1.286;
+}
+
+.section_about--paragraph {
+  font-size: 15px;
+  font-family: "Arial";
+  color: rgb(76, 76, 76);
+  line-height: 1.6;
+}
+
+.section_dogs-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.section_dogs-list--header{
+  font-size: 55px;
+  font-family: "Georgia";
+  color: rgb(84, 84, 84);
+  line-height: 1.286;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-right: 25%;
+  margin-left: 25%;
+  text-align: center;
+}
+.section_dog-list-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.section_dog-list--arrow{
+    padding: 5px;
+    border:2px solid pink;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.section_dog-list--arrow:hover{
+    background-color: pink;
+}
+.section_dogs-list--dog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section_dogs-list--dog-name{
+  font-size: 25px;
+  font-family: "Georgia";
+  color: rgb(84, 84, 84);
+  line-height: 2.25;
+}
+.section_dogs-list--dog-button{
+  font-size: 20px;
+  font-family: "Georgia";
+  color: rgb(41, 41, 41);
+  line-height: 3.353;
+  padding: 5px;
+  border:2px solid pink;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.section_dogs-list--dog-button:hover{
+    background-color: pink;
+}
