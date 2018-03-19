@@ -80,6 +80,7 @@ header{
 .section_dogs-list{
     display: flex;
     flex-direction: column;
+    background-image: url(../img/section-bg.png);
 }
 
 .section_dogs-list--header{
@@ -87,7 +88,7 @@ header{
   font-family: "Georgia";
   color: rgb(84, 84, 84);
   line-height: 1.286;
-  margin-top: 30px;
+  margin-top: 70px;
   margin-bottom: 30px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -146,6 +147,7 @@ header{
     margin-left: 40%;
     margin-top: 70px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .section_help{
@@ -177,4 +179,63 @@ header{
 .section_help--help-list-item{
     margin-right: 7%;
     margin-bottom: 20px;
+}
+
+.section_donation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(../img/donation-bg.png);
+}
+.section_donation--content-wrapper{
+    width:35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.section_donation--main-header {
+  font-size: 40px;
+  font-family: "Georgia";
+  color: rgb(84, 84, 84);
+  line-height: 1.286;
+  text-align: left;
+}
+.section_donation--second-header {
+  font-size: 15px;
+  font-family: "Georgia";
+  color: rgb(84, 84, 84);
+  line-height: 1.2;
+  text-align: left;
+  align-self: flex-start;
+}
+.section_donation--bank-card{
+    background-color: pink;
+    cursor: pointer;
+    border-radius: 9px;
+    background-color: rgb(241, 205, 179);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+.section_donation--bank-card p {
+  font-size: 20px;
+  font-family: "Times New Roman";
+  color: rgb(41, 41, 41);
+  text-align: right;
+}
+.section_donation--paragraph{
+  font-size: 17px;
+  font-family: "Arial";
+  color: rgb(178, 178, 178);
+  font-style: italic;
+  line-height: 1.5;
+  text-align: justify;
 }
